@@ -1,0 +1,39 @@
+.main-button-back-style {
+    flex-shrink: 0;
+    height: 60px;
+    width: 240px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(175, 175, 175, 255);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgba(0, 0, 0, 255);
+    border-right-color: rgba(0, 0, 0, 255);
+    border-top-color: rgba(0, 0, 0, 255);
+    border-bottom-color: rgba(0, 0, 0, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.main-button-text-style {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    -unity-font-definition: resource('Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF');
+    font-size: 40px;
+    -unity-text-align: middle-center;
+    color: rgba(0, 0, 0, 255);
+}

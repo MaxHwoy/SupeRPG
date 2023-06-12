@@ -1,0 +1,5 @@
+Human,Damage,0.15,Sprites/Races/Human
+Dwarf,Armor,0.15,Sprites/Races/Dwarf
+Elf,Evasion,0.15,Sprites/Races/Elf
+Dragonborn,Health,0.15,Sprites/Races/Dragonborn
+Orc,CritChance,0.15,Sprites/Races/Orc

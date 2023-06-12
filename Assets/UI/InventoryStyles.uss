@@ -1,0 +1,112 @@
+.equipped-style {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(103, 63, 39);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.stat-image-style {
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    background-image: none;
+}
+
+.stat-label-style {
+    flex-grow: 1;
+    flex-shrink: 1;
+    -unity-font-definition: resource('Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF');
+    font-size: 24px;
+    -unity-text-align: middle-left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: rgb(0, 0, 0);
+}
+
+.stat-info-container-style {
+    flex-shrink: 0;
+    width: 100%;
+    height: 25%;
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: row;
+    align-items: center;
+}
+
+.type-button-style {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(189, 146, 82);
+}
+
+#inventory-view .unity-scroll-view__content-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.inventory-item-style {
+    width: 46px;
+    height: 46px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: rgb(189, 146, 82);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    flex-shrink: 0;
+}

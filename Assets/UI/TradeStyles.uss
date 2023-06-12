@@ -1,0 +1,79 @@
+.top-bar-button-style {
+    width: 70px;
+    height: 70px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left-color: rgb(123, 80, 47);
+    border-right-color: rgb(123, 80, 47);
+    border-top-color: rgb(123, 80, 47);
+    border-bottom-color: rgb(123, 80, 47);
+    flex-shrink: 0;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.item-base {
+    width: 48px;
+    height: 48px;
+    margin: 5px;
+    border-left-color: rgb(48, 48, 48);
+    border-right-color: rgb(48, 48, 48);
+    border-top-color: rgb(48, 48, 48);
+    border-bottom-color: rgb(48, 48, 48);
+    background-color: rgb(101, 59, 28);
+    background-image: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.item-icon {
+    padding: 8px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#player-scrollview .unity-scroll-view__content-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#seller-scrollview .unity-scroll-view__content-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.bottom-bar-label-style {
+    flex-grow: 1;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgb(89, 47, 0);
+    border-right-color: rgb(89, 47, 0);
+    border-top-color: rgb(89, 47, 0);
+    border-bottom-color: rgb(89, 47, 0);
+    background-color: rgba(190, 70, 0, 0.41);
+}

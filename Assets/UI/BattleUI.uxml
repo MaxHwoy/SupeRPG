@@ -1,0 +1,126 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/BattleStyles.uss?fileID=7433441132597879392&amp;guid=47e4134f91fa9b947af60b7aaee81f22&amp;type=3#BattleStyles" />
+    <ui:VisualElement name="battle-overlay" picking-mode="Ignore" style="position: absolute; width: 100%; height: 100%;" />
+    <ui:VisualElement name="ui-overlay" picking-mode="Ignore" style="flex-grow: 1; padding-left: 15px; padding-right: 15px; padding-top: 15px; padding-bottom: 15px;">
+        <ui:VisualElement name="info-layout" picking-mode="Ignore" style="flex-direction: row; flex-shrink: 0; justify-content: space-between;">
+            <ui:VisualElement picking-mode="Ignore" name="button-layout" style="flex-direction: row; flex-shrink: 0;">
+                <ui:VisualElement name="back-button" class="upper-button-style" style="background-image: resource(&apos;UI/Shared/BackButton&apos;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(0, 0, 0);" />
+                <ui:VisualElement name="sound-button" class="upper-button-style" style="background-color: rgb(209, 156, 76); background-image: resource(&apos;UI/Shared/SoundButton&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:Label text="TURN" display-tooltip-when-elided="false" name="turn-label" enable-rich-text="false" style="-unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); -unity-text-align: middle-center; height: 100%; margin-left: 0; margin-right: 5px; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 40px; -unity-text-outline-color: rgb(0, 0, 0); -unity-text-outline-width: 1px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="game-layout" picking-mode="Ignore" style="flex-grow: 1; flex-direction: column-reverse; justify-content: flex-start; align-items: center;">
+            <ui:VisualElement name="main-layout" picking-mode="Ignore" style="width: 400px; height: 150px; background-color: rgb(189, 146, 82); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); background-image: resource(&apos;UI/Shared/Vignette&apos;); -unity-background-image-tint-color: rgba(0, 0, 0, 0.39); top: 170px; display: none; visibility: visible;">
+                <ui:VisualElement name="effect-container" style="width: 100%; height: 20px; padding-left: 5px; padding-right: 5px; padding-top: 0; padding-bottom: 0; flex-shrink: 0; flex-wrap: wrap; flex-direction: row; justify-content: space-between;">
+                    <ui:VisualElement name="effect-layout" style="flex-shrink: 0; flex-direction: row; align-items: center;">
+                        <ui:VisualElement name="effect-1" class="effect-style" />
+                        <ui:VisualElement name="effect-2" class="effect-style" />
+                        <ui:VisualElement name="effect-3" class="effect-style" />
+                        <ui:VisualElement name="effect-4" class="effect-style" />
+                        <ui:VisualElement name="effect-5" class="effect-style" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="enemy-ability" style="flex-shrink: 0; width: 16px; height: 16px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); display: flex; visibility: hidden;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="interact-container" style="flex-grow: 1; border-left-width: 0; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 2px; flex-direction: row-reverse;">
+                    <ui:VisualElement name="potion-layout" style="justify-content: space-around; padding-left: 4px; padding-right: 4px; flex-shrink: 0; height: 100%; width: 15%; align-items: center; border-left-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); display: flex;">
+                        <ui:VisualElement name="potion-slot1-icon" picking-mode="Ignore" class="interact-icon-style" style="-unity-background-scale-mode: scale-to-fit;" />
+                        <ui:VisualElement name="potion-slot2-icon" picking-mode="Ignore" class="interact-icon-style" style="width: 32px; height: 32px; -unity-background-scale-mode: scale-to-fit;" />
+                        <ui:VisualElement name="potion-slot3-icon" picking-mode="Ignore" class="interact-icon-style" style="width: 32px; height: 32px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="interact-layout" style="height: 100%; width: 30%; border-left-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); display: flex;">
+                        <ui:VisualElement name="abilities-layout" style="flex-shrink: 1; padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px; flex-grow: 1; display: flex;">
+                            <ui:VisualElement name="abilities-upper" style="width: 100%; height: 50%; flex-shrink: 0; flex-direction: row; justify-content: space-around; align-items: center;">
+                                <ui:VisualElement name="regular-attack-icon" picking-mode="Ignore" class="interact-icon-style" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; background-image: resource(&apos;Sprites/Abilities/BasicAttack&apos;); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); background-color: rgb(103, 63, 39);" />
+                                <ui:VisualElement name="ability-slot1-icon" picking-mode="Ignore" class="interact-icon-style" style="background-color: rgb(103, 63, 39);">
+                                    <ui:Label display-tooltip-when-elided="false" enable-rich-text="false" name="ability-slot1-text" picking-mode="Ignore" class="interact-text-style" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="abilities-lower" style="width: 100%; height: 50%; flex-shrink: 0; flex-direction: row; align-items: center; justify-content: space-around;">
+                                <ui:VisualElement name="ability-slot2-icon" picking-mode="Ignore" class="interact-icon-style" style="background-image: none; background-color: rgb(103, 63, 39);">
+                                    <ui:Label display-tooltip-when-elided="false" name="ability-slot2-text" enable-rich-text="false" picking-mode="Ignore" class="interact-text-style" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="ability-slot3-icon" picking-mode="Ignore" class="interact-icon-style" style="background-image: none; background-color: rgb(103, 63, 39);">
+                                    <ui:Label display-tooltip-when-elided="false" enable-rich-text="false" name="ability-slot3-text" picking-mode="Ignore" class="interact-text-style" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="action-layout" style="width: 100%; height: 25%; flex-shrink: 0; min-width: auto; min-height: auto; padding-left: 8px; padding-right: 8px; padding-top: 4px; padding-bottom: 4px;">
+                            <ui:VisualElement name="action-button" picking-mode="Ignore" style="flex-grow: 1; background-color: rgb(103, 63, 39); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+                                <ui:Label text="ACTION" display-tooltip-when-elided="false" name="action-label" enable-rich-text="false" picking-mode="Ignore" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; flex-grow: 1; flex-shrink: 1; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); -unity-text-align: middle-center; font-size: 24px;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="stats-layout" style="flex-grow: 1; flex-direction: column; justify-content: center; align-items: center;">
+                        <ui:VisualElement name="stats-sublayout" style="flex-shrink: 0; width: 90%; height: 100%; justify-content: center; align-items: center;">
+                            <ui:VisualElement name="health-layout" style="flex-shrink: 0; height: 20%; width: 100%; padding-top: 2px; padding-bottom: 2px; padding-left: 5px; padding-right: 5px; flex-direction: row; justify-content: space-between; align-items: center;">
+                                <ui:VisualElement name="health-icon" class="stat-icon-style" style="background-image: resource(&apos;Sprites/Stats/Health&apos;);" />
+                                <ui:ProgressBar value="60" title="650/1000" name="health-stat" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; flex-shrink: 1; flex-grow: 1; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); -unity-text-align: middle-center; color: rgb(0, 0, 0); font-size: 16px;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="mana-layout" style="width: 100%; height: 20%; flex-shrink: 0; flex-direction: row; justify-content: space-between; padding-left: 5px; padding-right: 5px; padding-top: 2px; padding-bottom: 2px; align-items: center; display: flex;">
+                                <ui:VisualElement name="mana-icon" class="stat-icon-style" style="background-image: resource(&apos;Sprites/Stats/Mana&apos;);" />
+                                <ui:ProgressBar value="45" title="120/230" name="mana-stat" style="flex-shrink: 1; flex-grow: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); -unity-text-align: middle-center; font-size: 16px;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="stat-row1" style="height: 20%; width: 100%; flex-direction: row; justify-content: space-between; flex-shrink: 0;">
+                                <ui:VisualElement name="damage-layout" style="width: 50%; height: 100%; flex-direction: row; align-items: center; justify-content: flex-start; padding-left: 0; padding-right: 0; padding-top: 2px; padding-bottom: 2px; flex-shrink: 0;">
+                                    <ui:VisualElement name="damage-icon" class="stat-icon-style" style="background-image: resource(&apos;Sprites/Stats/Damage&apos;); left: 20%;" />
+                                    <ui:Label text="135" display-tooltip-when-elided="false" enable-rich-text="false" name="damage-stat" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-left; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); font-size: 20px; left: 20%;" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="armor-layout" style="width: 50%; height: 100%; flex-direction: row; align-items: center; justify-content: flex-start; padding-left: 0; padding-right: 0; padding-top: 2px; padding-bottom: 2px; flex-shrink: 0;">
+                                    <ui:VisualElement name="armor-icon" class="stat-icon-style" style="background-image: resource(&apos;Sprites/Stats/Armor&apos;); left: 20%;" />
+                                    <ui:Label text="225" display-tooltip-when-elided="false" enable-rich-text="false" name="armor-stat" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); font-size: 20px; -unity-text-align: middle-left; left: 20%;" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="stat-row2" style="width: 100%; height: 20%; flex-direction: row; justify-content: space-between; flex-shrink: 0;">
+                                <ui:VisualElement name="evasion-layout" style="width: 50%; height: 100%; flex-direction: row; align-items: center; justify-content: flex-start; flex-shrink: 0; padding-left: 0; padding-right: 0; padding-top: 2px; padding-bottom: 2px;">
+                                    <ui:VisualElement name="evasion-icon" class="stat-icon-style" style="left: 20%; background-image: resource(&apos;Sprites/Stats/Evasion&apos;);" />
+                                    <ui:Label text="100%" display-tooltip-when-elided="false" enable-rich-text="false" name="evasion-stat" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); font-size: 20px; -unity-text-align: upper-center; left: 20%;" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="critchance-layout" style="width: 50%; height: 100%; padding-left: 0; padding-right: 0; padding-top: 2px; padding-bottom: 2px; flex-shrink: 0; flex-direction: row; justify-content: flex-start; align-items: center;">
+                                    <ui:VisualElement name="critchance-icon" class="stat-icon-style" style="left: 20%; background-image: resource(&apos;Sprites/Stats/CritChance&apos;);" />
+                                    <ui:Label text="100%" display-tooltip-when-elided="false" enable-rich-text="false" name="critchance-stat" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: 20%; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); font-size: 20px; -unity-text-align: middle-left;" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="stat-row3" style="width: 100%; height: 20%; flex-direction: row; justify-content: space-between; flex-shrink: 0;">
+                                <ui:VisualElement name="precision-layout" style="width: 50%; height: 100%; flex-shrink: 0; flex-direction: row; align-items: center; justify-content: flex-start; padding-left: 0; padding-right: 0; padding-top: 2px; padding-bottom: 2px;">
+                                    <ui:VisualElement name="precision-icon" class="stat-icon-style" style="left: 20%; background-image: resource(&apos;Sprites/Stats/Precision&apos;);" />
+                                    <ui:Label text="100" display-tooltip-when-elided="false" enable-rich-text="false" name="precision-stat" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); font-size: 20px; -unity-text-align: middle-left; left: 20%;" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="critmult-layout" style="width: 50%; height: 100%; flex-shrink: 0; flex-direction: row; align-items: center; justify-content: flex-start; padding-left: 0; padding-right: 0; padding-top: 2px; padding-bottom: 2px;">
+                                    <ui:VisualElement name="critmult-icon" class="stat-icon-style" style="left: 20%; background-image: resource(&apos;Sprites/Stats/CritMultiplier&apos;);" />
+                                    <ui:Label text="350%" display-tooltip-when-elided="false" enable-rich-text="false" name="critmult-stat" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 20px; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); -unity-text-align: middle-left; left: 20%;" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="tooltip-layout" style="width: 400px; background-color: rgb(189, 146, 82); background-image: resource(&apos;UI/Shared/Vignette&apos;); -unity-background-image-tint-color: rgba(0, 0, 0, 0.39); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); display: none; flex-shrink: 0; padding-left: 4px; padding-right: 4px; padding-top: 2px; padding-bottom: 2px;">
+                <ui:VisualElement name="tooltip-main" style="width: 100%; height: 38px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); flex-direction: row; align-items: center; justify-content: space-between; flex-shrink: 0;">
+                    <ui:VisualElement name="tooltip-left-panel" style="height: 100%; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px; flex-direction: row; align-items: center; flex-shrink: 0;">
+                        <ui:VisualElement name="tooltip-icon" style="flex-shrink: 0; width: 32px; height: 32px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); background-color: rgb(103, 63, 39);" />
+                        <ui:VisualElement name="tooltip-name-container" style="flex-shrink: 0; height: 100%; justify-content: space-around;">
+                            <ui:Label text="Name" display-tooltip-when-elided="true" name="tooltip-name" style="-unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 1px; margin-left: 4px; font-size: 20px; -unity-text-align: middle-left;" />
+                            <ui:Label text="Ability" display-tooltip-when-elided="false" enable-rich-text="false" name="tooltip-type" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); font-size: 12px; margin-top: 1px; margin-left: 4px; margin-bottom: 0; -unity-text-align: middle-left;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="tooltip-right-panel" style="height: 100%; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px; flex-shrink: 0; justify-content: space-around;">
+                        <ui:Label text="Cooldown: 0" display-tooltip-when-elided="false" enable-rich-text="false" name="tooltip-time" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-right: 0; -unity-text-align: middle-right; margin-top: 0; margin-bottom: 1px; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;);" />
+                        <ui:Label text="Mana Cost: 0" display-tooltip-when-elided="false" enable-rich-text="false" name="tooltip-cost" style="margin-top: 1px; margin-bottom: 0; margin-right: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-right; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;);" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="tooltip-grow" style="flex-grow: 1;">
+                    <ui:Label text="Ability Description" display-tooltip-when-elided="false" enable-rich-text="false" name="tooltip-desc" style="-unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); -unity-text-align: upper-left; white-space: normal; margin-left: 4px; margin-right: 4px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; min-height: 42px; flex-grow: 1; flex-shrink: 1;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="gameover-overlay" style="display: none; position: absolute; left: 0; top: 0; flex-grow: 0; flex-shrink: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.88); align-items: center; justify-content: center; -unity-background-scale-mode: scale-to-fit;">
+        <ui:VisualElement name="gameover-layout" style="height: 200px; width: 400px; align-items: center; justify-content: center;">
+            <ui:Label text="VICTORY" display-tooltip-when-elided="false" enable-rich-text="false" name="outcome-label" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; -unity-text-align: middle-center; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); font-size: 90px; -unity-text-outline-color: rgb(0, 0, 0); color: rgb(255, 220, 26); -unity-text-outline-width: 2px; -unity-font-style: bold;" />
+            <ui:VisualElement name="reward-layout" style="width: 100%; flex-direction: row; justify-content: center; align-items: center;">
+                <ui:VisualElement name="reward-icon" style="width: 50px; height: 50px; background-image: resource(&apos;UI/InGame/CoinStackIcon&apos;);" />
+                <ui:Label text="REWARD: $1000" display-tooltip-when-elided="false" name="reward-text" enable-rich-text="false" style="margin-left: 8px; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); font-size: 45px; color: rgb(255, 220, 26); -unity-text-outline-width: 1.5px; -unity-text-outline-color: rgb(0, 0, 0); -unity-font-style: bold;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

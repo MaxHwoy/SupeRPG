@@ -1,0 +1,64 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/CreationStyles.uss?fileID=7433441132597879392&amp;guid=0dd88316d7657064ab5b8cbabe60d889&amp;type=3#CreationStyles" />
+    <ui:VisualElement name="overlay" style="flex-grow: 1; background-image: resource(&apos;UI/Creation/Bg&apos;); flex-direction: row;">
+        <ui:VisualElement name="select-layout" style="height: 100%; width: 60%; background-color: rgba(0, 0, 0, 0);">
+            <ui:VisualElement name="creation-layout" style="padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; background-image: none; width: 100%; height: 140px; -unity-background-scale-mode: scale-and-crop; background-color: rgba(0, 0, 0, 0);">
+                <ui:VisualElement name="creation-image" style="flex-grow: 1; background-image: resource(&apos;UI/Creation/Char_Create_Title&apos;); -unity-background-scale-mode: stretch-to-fill; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; justify-content: flex-start; align-items: auto; min-width: auto; min-height: auto;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="button-layout" style="flex-grow: 1; flex-direction: row; background-color: rgba(0, 0, 0, 0);">
+                <ui:VisualElement name="class-layout" style="flex-shrink: 0; width: 50%; height: 100%; background-color: rgba(0, 0, 0, 0);">
+                    <ui:VisualElement name="class-icon-layout" style="flex-shrink: 0; width: 100%; height: 50px; background-color: rgba(66, 195, 68, 0.4); background-image: none; min-width: auto; min-height: auto; padding-left: 20px; padding-right: 10px; padding-top: 0; padding-bottom: 0;">
+                        <ui:VisualElement name="class-icon-image" style="flex-grow: 1; background-image: resource(&apos;UI/Creation/Class&apos;);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="class-elements" style="flex-grow: 1; padding-left: 20px; padding-right: 10px; padding-top: 5px; padding-bottom: 20px; background-color: rgba(0, 0, 0, 0);">
+                        <ui:ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" name="class-scrollview" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="race-layout" style="width: 50%; height: 100%; flex-shrink: 0; background-color: rgba(0, 0, 0, 0);">
+                    <ui:VisualElement name="race-icon-layout" style="flex-shrink: 0; width: 100%; height: 50px; background-color: rgba(0, 0, 0, 0); min-width: auto; min-height: auto; padding-left: 10px; padding-right: 20px; padding-top: 0; padding-bottom: 0;">
+                        <ui:VisualElement name="race-icon-image" style="flex-grow: 1; background-image: resource(&apos;UI/Creation/Race&apos;);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="race-elements" style="flex-grow: 1; padding-left: 10px; padding-right: 20px; padding-top: 5px; padding-bottom: 20px; min-width: auto; min-height: auto; background-color: rgba(0, 0, 0, 0);">
+                        <ui:ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" name="race-scrollview" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="create-layout" style="width: 40%; height: 100%; background-color: rgba(0, 0, 0, 0);">
+            <ui:VisualElement name="character-layout" style="width: 100%; height: 50%; background-color: rgba(0, 0, 0, 0); padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px;">
+                <ui:VisualElement name="character-background" style="flex-grow: 1; background-image: resource(&apos;UI/Creation/Char_Border&apos;); -unity-background-scale-mode: scale-to-fit; min-width: auto; min-height: auto; justify-content: center; align-items: center;">
+                    <ui:VisualElement name="character-image" style="width: 128px; height: 128px; background-image: none;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="stats-layout" style="width: 100%; height: 35%; padding-left: 15px; padding-right: 15px; padding-top: 0; padding-bottom: 15px; flex-grow: 0; background-color: rgba(0, 0, 0, 0); justify-content: flex-end; flex-direction: column; align-items: center;">
+                <ui:VisualElement name="bonus-layout" style="flex-shrink: 0; width: 100%; flex-direction: row; align-items: center; justify-content: space-between;">
+                    <ui:VisualElement name="bonus-image" class="statistic-image" />
+                    <ui:Label text="20% CRIT. CHANCE BONUS" display-tooltip-when-elided="false" enable-rich-text="false" name="bonus-label" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-center; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); width: 85%; font-size: 18px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="health-layout" style="flex-shrink: 0; width: 100%; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: center; justify-content: space-between;">
+                    <ui:VisualElement name="health-image" class="statistic-image" style="background-image: resource(&apos;Sprites/Stats/Health&apos;);" />
+                    <ui:ProgressBar value="0" name="health-bar" class="statistic-bar-background statistic-bar-progress statistic-bar" />
+                </ui:VisualElement>
+                <ui:VisualElement name="mana-layout" style="flex-shrink: 0; width: 100%; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: space-between; align-items: center;">
+                    <ui:VisualElement name="mana-image" class="statistic-image" style="background-image: resource(&apos;Sprites/Stats/Mana&apos;); -unity-background-scale-mode: scale-to-fit;" />
+                    <ui:ProgressBar value="0" name="mana-bar" class="statistic-bar statistic-bar-background statistic-bar-progress" />
+                </ui:VisualElement>
+                <ui:VisualElement name="damage-layout" style="width: 100%; flex-shrink: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: center; justify-content: space-between;">
+                    <ui:VisualElement name="damage-image" class="statistic-image" style="background-image: resource(&apos;Sprites/Stats/Damage&apos;);" />
+                    <ui:ProgressBar value="0" name="damage-bar" class="statistic-bar statistic-bar-background statistic-bar-progress" />
+                </ui:VisualElement>
+                <ui:VisualElement name="armor-layout" style="flex-shrink: 0; width: 100%; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: center; justify-content: space-between;">
+                    <ui:VisualElement name="armor-image" class="statistic-image" style="background-image: resource(&apos;Sprites/Stats/Armor&apos;);" />
+                    <ui:ProgressBar value="0" name="armor-bar" class="statistic-bar statistic-bar-background statistic-bar-progress" />
+                </ui:VisualElement>
+                <ui:VisualElement name="evasion-layout" style="flex-shrink: 0; width: 100%; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: center; justify-content: space-between;">
+                    <ui:VisualElement name="evasion-image" class="statistic-image" style="background-image: resource(&apos;Sprites/Stats/Evasion&apos;);" />
+                    <ui:ProgressBar value="0" name="evasion-bar" class="statistic-bar statistic-bar-background statistic-bar-progress" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="finish-layout" style="width: 100%; height: 15%; padding-left: 15px; padding-right: 15px; padding-top: 0; padding-bottom: 25px; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; flex-direction: row-reverse;">
+                <ui:VisualElement name="finish-button" picking-mode="Ignore" style="flex-grow: 0; background-image: resource(&apos;UI/Creation/Finish&apos;); -unity-background-scale-mode: stretch-to-fill; flex-shrink: 0; height: 100%; width: 200px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

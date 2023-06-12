@@ -1,0 +1,15 @@
+Axe,0,12,0.10,0.30,25,100,3,Sprites/Weapons/Axe
+Dagger,0,10,0.15,0.50,20,100,3,Sprites/Weapons/Dagger
+Dead Fish,0,15,0.05,0.20,25,100,3,Sprites/Weapons/DeadFish
+Bow,1,28,0.15,0.70,45,200,3,Sprites/Weapons/Bow
+Wand,1,38,0.03,0.40,55,200,3,Sprites/Weapons/Wand
+Hammer,1,32,0.10,0.60,50,200,3,Sprites/Weapons/Hammer
+Short Sword,1,34,0.08,0.40,60,200,3,Sprites/Weapons/ShortSword
+Mace,1,32,0.10,0.50,60,200,3,Sprites/Weapons/Mace
+Spear,2,64,0.12,0.70,80,400,2,Sprites/Weapons/Spear
+Bongos,2,72,0.05,0.50,85,400,2,Sprites/Weapons/Bongos
+Throwing Knives,2,57,0.15,1.00,75,400,2,Sprites/Weapons/ThrowingKnives
+Lute,2,68,0.08,0.90,95,400,2,Sprites/Weapons/Lute
+Crossbow,3,85,0.20,1.30,100,700,1,Sprites/Weapons/Crossbow
+Staff,3,115,0.05,0.80,120,700,1,Sprites/Weapons/Staff
+Great Sword,3,100,0.12,1.00,140,700,1,Sprites/Weapons/GreatSword

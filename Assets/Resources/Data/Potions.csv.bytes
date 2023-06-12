@@ -1,0 +1,8 @@
+Demonic Drink,Empower,30,5,30,2,Sprites/Potions/DemonicDrink,Increases damage by 30 points for 5 turns.
+Elixir of Strength,Amplify,0.25,5,30,2,Sprites/Potions/ElixirOfStrength,Increases damage by 25% for 5 turns.
+Phial of Lifeforce,Healing,0.50,0,30,2,Sprites/Potions/PhialOfLifeforce,Immediately restores 50% of health points.
+Resurgence Bottle,Surge,1.00,0,30,3,Sprites/Potions/ResurgenceBottle,Immediately restores 100% points of mana.
+Tranquilizer,Regeneration,0.15,5,30,1,Sprites/Potions/Tranquilizer,Restores health by 15% per turn over 5 turns.
+Flask of Storms,Lethality,0.10,5,30,3,Sprites/Potions/FlaskOfStorms,Increases critical chance by 10% for 5 turns.
+Tonic of Precision,Sharpness,60.0,5,30,2,Sprites/Potions/TonicOfPrecision,Increases precision by 60 points for 5 turns.
+Speedster Brew,Flow,0.10,5,30,1,Sprites/Potions/SpeedsterBrew,Increases evasion by 10% for 5 turns.

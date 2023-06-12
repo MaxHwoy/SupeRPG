@@ -1,0 +1,32 @@
+SlimeOozingGrowth,15,50,0.4,0.15,1,Oozing Growth,Sprites/Monsters/PhongSlime
+SlimeSlimeSpear,15,50,0.4,0.15,1,Slime Spear,Sprites/Monsters/PhongSlime
+SlimePollute,15,50,0.4,0.15,1,Pollute,Sprites/Monsters/PhongSlime
+CowMarchingCow,50,55,0.2,0.1,1.2,Marching Cow,Sprites/Monsters/RedRasterCow
+CowRasterBolt,50,55,0.2,0.1,1.2,Rasterbolt,Sprites/Monsters/BlueRasterCow
+CowSicklyBreath,50,55,0.2,0.1,1.2,Sickly Breath,Sprites/Monsters/GreenRasterCow
+MonkeyQuickSwing,25,60,0.35,0.2,0.7,Quick Swing,Sprites/Monsters/PhongMonkey
+MonkeyPiercingStare,25,60,0.35,0.2,0.7,Piercing Stare,Sprites/Monsters/PhongMonkey
+MonkeyEnragedStrike,25,60,0.35,0.2,0.7,Enraged Strike,Sprites/Monsters/PhongMonkey
+BookPiercingStare,55,80,0.2,0.12,0.85,Piercing Stare,Sprites/Monsters/Book
+BookEnragedStrike,55,80,0.2,0.12,0.85,Enraged Strike,Sprites/Monsters/Book
+BookLab,55,80,0.2,0.12,0.85,Lab,Sprites/Monsters/Book
+TapsRamble,65,50,0.35,0.2,0.45,Ramble,Sprites/Monsters/Taps
+TapsMarchingCow,65,50,0.35,0.2,0.45,Marching Cow,Sprites/Monsters/Taps
+TapsTicket,65,50,0.35,0.2,0.45,Ticket,Sprites/Monsters/Taps
+GradSicklyBreath,35,60,0.4,0.15,1.2,Sickly Breath,Sprites/Monsters/GradStudent
+GradPollute,35,60,0.4,0.15,1.2,Pollute,Sprites/Monsters/GradStudent
+GradTA,35,60,0.4,0.15,1.2,TA,Sprites/Monsters/GradStudent
+UndergradRamble,50,55,0.3,0.22,1,Ramble,Sprites/Monsters/Undergrad
+UndergradOozingGrowth,50,55,0.3,0.22,1,Oozing Growth,Sprites/Monsters/Undergrad
+UndergradStench,50,55,0.3,0.22,1,Stench,Sprites/Monsters/Undergrad
+AIRasterBolt,25,60,0.3,0.18,0.75,Rasterbolt,Sprites/Monsters/ArtificialIntelligence
+AISlimeSpear,25,60,0.3,0.18,0.75,Slime Spear,Sprites/Monsters/ArtificialIntelligence
+AIChatGPT,25,60,0.3,0.18,0.75,ChatGPT,Sprites/Monsters/ArtificialIntelligence
+FARamble,45,55,0.35,0.3,1,Ramble,Sprites/Monsters/TuitionCollector
+FAQuickSwing,45,55,0.35,0.3,1,Quick Swing,Sprites/Monsters/TuitionCollector
+FABill,45,55,0.35,0.3,1,Bill,Sprites/Monsters/TuitionCollector
+AdvisorsPiercingStare,60,70,0.3,0.25,0.8,Piercing Stare,Sprites/Monsters/Advisors
+AdvisorsEnragedStrike,60,70,0.3,0.25,0.8,Enraged Strike,Sprites/Monsters/Advisors
+AdvisorsWorkshop,60,70,0.3,0.25,0.8,Workshop,Sprites/Monsters/Advisors
+TwoDragons,50,70,0.35,0.4,1,Ramble,Sprites/Monsters/TwoDragons
+Craig,80,70,0.5,0.05,1.5,Demo Feedback,Sprites/Monsters/BossCraig

@@ -1,0 +1,22 @@
+SlimeSlimeSpear,,,100,,,15,,,50,FALSE
+SlimePollute,SlimePollute,,130,150,,17,19,,50,FALSE
+CowMarchingCow,"CowMarchingCow, CowRasterBolt",,200,"140, 140",,18,"13, 13",,100,FALSE
+MonkeyQuickSwing,"MonkeyQuickSwing, MonkeyPiercingStare",,220,"160, 160",,20,"15, 15",,100,FALSE
+BookEnragedStrike,"BookEnragedStrike, SlimePollute","BookEnragedStrike, SlimePollute, SlimePollute",240,"240, 50","240, 50, 50",17,"17, 10","17, 10, 10",100,FALSE
+TapsRamble,"TapsRamble, MonkeyEnragedStrike","TapsRamble, MonkeyEnragedStrike, CowSicklyBreath",300,"300, 70","300, 70, 70",15,"15, 10","15, 10, 10",150,FALSE
+"BookPiercingStare, BookEnragedStrike, BookLab","BookPiercingStare, BookEnragedStrike, BookLab","BookPiercingStare, BookEnragedStrike, BookLab","180, 180, 180","230, 230, 230","280, 280, 280","11, 11, 11","13, 13, 13","15, 15, 15",150,FALSE
+TapsTicket,TapsTicket,TapsTicket,600,800,1000,20,20,20,150,FALSE
+"GradSicklyBreath, GradTA","GradSicklyBreath, GradTA","GradSicklyBreath, GradTA","400, 400","500, 500","600, 600","12, 15","12, 15","12, 18",200,FALSE
+"CowMarchingCow, CowMarchingCow","CowMarchingCow, CowMarchingCow, CowMarchingCow","CowMarchingCow, CowMarchingCow, CowMarchingCow, CowMarchingCow","400, 400","400, 400, 400","400, 400, 400, 400","20, 20","18, 18, 18","18, 18, 18, 18",500,FALSE
+,,TwoDragons,,,3000,,,16,500,TRUE
+"UndergradOozingGrowth, UndergradStench, UndergradRamble","UndergradOozingGrowth, UndergradStench, UndergradRamble","UndergradOozingGrowth, UndergradStench, UndergradRamble","500, 500, 500","650, 650, 650","800, 800, 800","20, 20, 16","20, 20, 16","20, 20, 16",200,FALSE
+"SlimePollute, SlimeSlimeSpear, SlimePollute, SlimeSlimeSpear","SlimePollute, SlimeSlimeSpear, SlimePollute, SlimeSlimeSpear","SlimePollute, SlimeSlimeSpear, SlimePollute, SlimeSlimeSpear","500, 500, 500, 500","750, 750, 750, 750","1000, 1000, 1000, 1000","16, 16, 16, 16","16, 16, 16, 16","16, 16, 16, 16",200,FALSE
+AIChatGPT,AIChatGPT,AIChatGPT,2200,2500,3000,40,45,50,250,FALSE
+"AIRasterBolt, AISlimeSpear, AIChatGPT","AIRasterBolt, AISlimeSpear, AIChatGPT","AIRasterBolt, AISlimeSpear, AIChatGPT","900, 900, 900","1200, 1200, 1200","1500, 1500, 1500","18, 18, 18","19, 19, 19","20, 20, 20",250,FALSE
+"AIChatGPT, UndergradOozingGrowth, GradSicklyBreath","AIChatGPT, UndergradOozingGrowth, GradSicklyBreath","AIChatGPT, UndergradOozingGrowth, GradSicklyBreath","900, 900, 900","1200, 1200, 1200","1500, 1500, 1500","18, 18, 18","19, 19, 19","20, 20, 20",250,FALSE
+FABill,FABill,FABill,2500,3000,3600,35,40,45,300,FALSE
+"AdvisorsWorkshop, AdvisorsPiercingStare","AdvisorsWorkshop, AdvisorsPiercingStare","AdvisorsWorkshop, AdvisorsPiercingStare","1500, 1500","1800, 1800","2200, 2200","20, 20","22, 22","24, 24",300,FALSE
+"AdvisorsEnragedStrike, FAQuickSwing, GradTA","AdvisorsEnragedStrike, FAQuickSwing, GradTA","AdvisorsEnragedStrike, FAQuickSwing, GradTA","1200, 1200, 1200","1500, 1500, 1500","1750, 1750, 1750","18, 18, 18","19, 19, 19","20, 20, 20",300,FALSE
+"SlimePollute, TapsMarchingCow, BookLab, MonkeyQuickSwing","SlimePollute, TapsMarchingCow, BookLab, MonkeyQuickSwing","SlimePollute, TapsMarchingCow, BookLab, MonkeyQuickSwing","850, 850, 850, 850","1000, 1000, 1000, 1000","1250, 1250, 1250, 1250","16, 16, 16, 16","17, 17, 17, 17","18, 18, 18, 18",300,FALSE
+"GradPollute, AISlimeSpear, FARamble, AdvisorsEnragedStrike","GradPollute, AISlimeSpear, FARamble, AdvisorsEnragedStrike","GradPollute, AISlimeSpear, FARamble, AdvisorsEnragedStrike","1000, 1000, 1000, 1000","1150, 1150, 1150, 1150","1350, 1350, 1350, 1350","20, 20, 15, 20","20, 20, 15, 20","20, 20, 15, 20",600,FALSE
+,,Craig,,,9999,,,50,2000,TRUE

@@ -1,0 +1,18 @@
+Enemy,Oozing Growth,"Slow, Dizzyness",,"0.15, 30",,"3, 2",,1,0,FALSE,4,Sprites/EnemyAbilities/OozingGrowth,Reduces target's evasion by 15% for 3 turns and reduces target's precision by 30 points for 2 turns.
+Enemy,Slime Spear,"Shred, Weaken",,"0.20, 0.10",,"2, 2",,0.75,0,FALSE,3,Sprites/EnemyAbilities/SlimeSpear,Reduces target's armor by 20% for 2 turns and reduces target's damage by 10% for 2 turns. Deals 75% of current damage
+Enemy,Pollute,,Flow,,0.3,,4,0,0,FALSE,5,Sprites/EnemyAbilities/Pollute,Increases evasion by 30% for 4 turns.
+Enemy,Marching Cow,,Amplify,,0.25,,3,0,0,FALSE,4,Sprites/EnemyAbilities/MarchingCow,Increases damage by 25% for 3 turns
+Enemy,Rasterbolt,Dispel,,0,,0,,1,0,FALSE,4,Sprites/EnemyAbilities/Rasterbolt,Removes all positive effects on the target.
+Enemy,Sickly Breath,Poison,,0.25,,3,,1,0,FALSE,3,Sprites/EnemyAbilities/SicklyBreath,Deals 25% damage to target for 3 turns.
+Enemy,Quick Swing,Shred,,0.3,,2,,1.25,0,FALSE,3,Sprites/EnemyAbilities/QuickSwing,Reduces target's armor by 30% for 2 turns. Deals 125% of current damage.
+Enemy,Piercing Stare,,Cleanse,,0,,0,0,0,FALSE,5,Sprites/EnemyAbilities/PiercingStare,Removes all negative effects from itself.
+Enemy,Enraged Strike,,"Amplify, Shatter",,"0.2, 1",,"2, 2",1.15,0,FALSE,4,Sprites/EnemyAbilities/EnragedStrike,Increases damage by 20% for 2 turns and increases critical multiplier by 100% or 2 turns. Deals 115% of current damage.
+Enemy,Ramble,"Burn, Weaken",Sharpness,"0.5, 0.2",40,"3, 3",3,1,0,FALSE,5,Sprites/EnemyAbilities/Ramble,"Deals 50% of their damage to the target for 3 turns, reduces target's damage by 20% for 3 turns, and increases precision by 40 points for 3 turns."
+Enemy,Demo Feedback,"Dizzyness, Weaken, Shred, Dispel",,"40, 0.2, 0.3, 0",,"3, 3, 3, 0",,1.5,0,FALSE,6,Sprites/EnemyAbilities/DemoFeedback,"Reduces target's evasion by 20% for 3 turns, precision by 40 points for 3 turns, damage by 20% for 3 turns, armor by 30% for 3 turns, as well as removes all its positive effects. Deals 150% of current damage."
+Enemy,Lab,"Dizzyness, Weaken",,"15, 0.2",,"3, 4",,1.2,0,FALSE,5,Sprites/EnemyAbilities/Lab,Reduces target's precision by 15 points for 3 turns and reduces target's damage by 20% for 4 turns. Deals 120% of current damage.
+Enemy,Ticket,"Shred, Poison",,"0.2, 0.25",,"2, 4",,1,0,FALSE,5,Sprites/EnemyAbilities/Ticket,Reduces target's armor by 20% for 2 turns and Deals 25% of their damage to the target for 4 turns.
+Enemy,TA,,Amplify,,0.25,,3,1.2,0,FALSE,4,Sprites/EnemyAbilities/TA,Increases damage by 25% for 3 turns. Deals 120% of current damage.
+Enemy,Stench,Slow,,0.3,,3,,1,0,FALSE,4,Sprites/EnemyAbilities/Stench,Reduces target's evasion by 30% for 3 turns.
+Enemy,ChatGPT,,Barricade,,0.3,,4,1,0,FALSE,6,Sprites/EnemyAbilities/ChatGPT,Increases armor by 30% for 4 turns.
+Enemy,Bill,,Lethality,,0.2,,3,1,0,FALSE,4,Sprites/EnemyAbilities/Bills,Increases critical change by 20% for 3 turns.
+Enemy,Workshop,Shred,Flow,0.2,0.25,2,3,1,0,FALSE,5,Sprites/EnemyAbilities/Workshop,Reduces target's armor by 20% for 2 turns and increases evasion by 25% for 3 turns.

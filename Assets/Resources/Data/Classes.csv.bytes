@@ -1,0 +1,6 @@
+Bard,FALSE,125,155,8,40,0.07,23,0.07,0.35,Sprites/Classes/Bard
+Rogue,TRUE,145,140,11,30,0.10,20,0.09,0.40,Sprites/Classes/Rogue
+Paladin,TRUE,150,135,8,55,0.04,20,0.05,0.30,Sprites/Classes/Paladin
+Wizard,FALSE,115,150,13,30,0.06,25,0.05,0.30,Sprites/Classes/Wizard
+Cleric,FALSE,130,150,9,35,0.08,22,0.07,0.35,Sprites/Classes/Cleric
+Barbarian,TRUE,165,130,9,40,0.06,23,0.10,0.50,Sprites/Classes/Barbarian

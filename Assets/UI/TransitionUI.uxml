@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="overlay" style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+        <ui:VisualElement name="left-part" style="flex-shrink: 0; width: 50%; height: 100%; background-image: resource(&apos;UI/Transition/LeftGate&apos;); left: -55%;" />
+        <ui:VisualElement name="right-part" style="width: 50%; height: 100%; background-image: resource(&apos;UI/Transition/RightGate&apos;); right: -55%;" />
+    </ui:VisualElement>
+</ui:UXML>

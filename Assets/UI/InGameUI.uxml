@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/InGameStyles.uss?fileID=7433441132597879392&amp;guid=e74b7d0907b95d74199618140c2bf017&amp;type=3#InGameStyles" />
+    <ui:VisualElement picking-mode="Ignore" name="overlay" style="flex-grow: 1; padding-left: 15px; padding-right: 15px; padding-top: 15px; padding-bottom: 15px; flex-direction: row; justify-content: space-between;">
+        <ui:VisualElement name="left-button-layout" picking-mode="Ignore" style="flex-direction: column; width: auto; flex-shrink: 0; align-items: flex-start; justify-content: space-between;">
+            <ui:VisualElement name="left-supercontainer" style="flex-direction: row; align-items: flex-start;">
+                <ui:VisualElement name="sound-layout" class="button-style button-layout-style">
+                    <ui:VisualElement name="sound-button" class="button-image-style" style="background-image: resource(&apos;UI/Shared/SoundButton&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="save-layout" class="button-style button-layout-style">
+                    <ui:VisualElement name="save-button" class="button-image-style" style="background-image: resource(&apos;UI/InGame/SaveButton&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="debugshop-layout" class="button-layout-style">
+                    <ui:VisualElement name="debugshop-button" class="button-image-style" style="background-image: resource(&apos;UI/InGame/DebugButton&apos;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="back-button" style="flex-shrink: 0; width: 48px; height: 48px; background-image: resource(&apos;UI/Shared/BackButton&apos;); -unity-background-image-tint-color: rgba(0, 0, 0, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right-button-layout" picking-mode="Ignore" style="flex-direction: column; align-items: flex-end; flex-shrink: 0; justify-content: space-between;">
+            <ui:VisualElement name="right-supercontainer" picking-mode="Ignore" style="flex-direction: row-reverse; align-items: center; justify-content: flex-end;">
+                <ui:VisualElement name="inventory-layout" class="button-style button-layout-style">
+                    <ui:VisualElement name="inventory-button" class="button-image-style" style="background-image: resource(&apos;UI/InGame/InventoryButton&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="money-container" style="flex-direction: row; flex-shrink: 0; align-items: center; border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: rgb(178, 120, 61);">
+                    <ui:VisualElement name="money-image" style="flex-shrink: 0; width: 32px; height: 32px; background-image: resource(&apos;UI/InGame/CoinStackIcon&apos;); margin-left: 3px; margin-right: 3px; margin-top: 3px; margin-bottom: 3px;" />
+                    <ui:Label text="$1000" display-tooltip-when-elided="true" name="money-label" style="-unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); font-size: 24px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="action-layout" style="flex-shrink: 0; width: 150px; height: 40px; border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); background-color: rgb(178, 120, 61);">
+                <ui:Label text="BATTLE" display-tooltip-when-elided="false" name="action-button" enable-rich-text="false" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; -unity-font-definition: resource(&apos;Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF SDF&apos;); flex-grow: 1; flex-shrink: 1; -unity-text-align: middle-center; font-size: 32px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
